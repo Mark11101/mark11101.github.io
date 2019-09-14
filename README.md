@@ -56,6 +56,12 @@
     получателя* (* - обязательно для заполнения, форма должна валидироваться).
     При этом, при создании нового платежа также должно учитываться текущее состояние
     баланса (на backend или на frontend в зависимости от используемой платформы)
+    
+Помимо требований по функционалу, содержащихся в тестовом задании, также, были реализованы cloud functions,
+реализующие работу компонента "Notifications".
+
+    Cloud Functions for Firebase let you automatically run backend code in response to 
+    events triggered by Firebase features and HTTPS requests.      
 
 Основные папки проекта:
 
