@@ -1,0 +1,1879 @@
+@font-face {
+    font-family: "Exo 2"; /* Имя шрифта */
+    src: url(fonts/Exo2/Exo2.0-Light.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Roboto"; /* Имя шрифта */
+    src: url(fonts/Roboto/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: "Helvetica Neue"; /* Имя шрифта */
+    src: url(fonts/Helvetica/HelveticaNeueCyr-Roman.otf); /* Путь к файлу со шрифтом */
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+body, p {
+    margin: 0;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.blueWindow_enterCabMobile {
+    display: none;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.header_logo {
+    width: 28px;
+    margin-left: 8.4%;
+}
+
+.header_TextHeader {
+    margin-left: 0.45%;
+    margin-top: -10px;
+}
+
+.header_TextHeader_tender {
+    font-family: "Exo 2", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.header_TextHeader_system {
+    margin: 0 0 0 2%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+}
+
+.header_rightPart {
+    position: relative;
+    left: 47.1%;
+    width: 30%;
+}
+
+.header_logInCabPartner {
+    display: none;
+}
+
+.header_tariffs_Text {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #0F6AC0;
+}
+
+.header_logoTelephone {
+    position: relative;
+    top: 10px;
+    margin-left: 8.5%;
+}
+
+.header_telephoneHeader {
+    position: relative;
+    top: 8px;
+    margin-left: 1.2%;
+}
+
+.header_telephoneHeader_Text {
+    margin: 0 0 3px;
+    font-family: Helvetica Neue, serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.header_telephoneHeader_FreeCall {
+    font-family: Helvetica Neue, serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+.header_reg {
+    margin-left: 8%;
+    width: 125px;
+    height: 36px;
+    background: linear-gradient(180deg, #2094FB 2.12%, #1D85E2 100%);
+    border: 1px solid #0D7ADB;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 rgba(22, 29, 37, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    border-radius: 47px;
+}
+
+.header_reg_Text {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px; /* identical to box height, or 143% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header_logIn {
+    margin-left: 5.3%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px; /* identical to box height, or 180% */
+    text-align: right;
+    color: #0F6AC0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blueWindow {
+    width: 5000px;
+    height: 1022px;
+    background-image: url("../img/blueWindow.png");
+    background-color: #23396b;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.blueWindow_makeMoney {
+    position: absolute;
+    left: 16.5%;
+    top: 370px;
+    width: 838px;
+    height: 100px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54.5px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.blueWindow_regClients {
+    position: absolute;
+    left: 16.4%;
+    top: 562px;
+    width: 563px;
+    height: 65px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28.2px;
+    line-height: 41px;
+    color: rgba(255, 255, 255, 0.93);
+}
+
+.bePartner_Btn {
+    position: absolute;
+    left: 16.3%;
+    top: 705px;
+    width: 288px;
+    height: 62px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    box-shadow: 0 1px 0 rgba(22, 29, 37, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    border-radius: 47px;
+}
+
+.bePartner_Text {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2A31B8;
+}
+
+.thirdBlock {
+    position: relative;
+    top: 135px;
+    left: 16.4%;
+}
+
+.getPassiveIncome {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44.4px;
+    line-height: 59px;
+    color: #202B30;
+}
+
+.regClients {
+    margin-top: 12px;
+    width: 630px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23.6px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.regClients a {
+    color: #2087e5;
+}
+
+.statistic {
+    margin-top: 65px;
+    margin-left: 0.1%;
+    margin-bottom: -77px;
+}
+
+.statistic_block {
+    margin-right: 7.5%;
+    display: inline-block;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #1F88E5;
+}
+
+.statistic_block_num {
+    font-size: 120px;
+}
+
+.statistic_block_rightText {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.statistic_block_bottomText {
+    font-size: 24px;
+}
+
+.systemReg {
+    position: relative;
+    left: 16.4%;
+    top: -26px;
+    width: 20%;
+}
+
+.systemReg_blueText {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #1F88E5;
+}
+
+.systemReg_bigText {
+    margin-top: 21px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #202B30;
+}
+
+.systemReg_textRegular {
+    margin-top: 15px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.systemReg_textRegularSecond {
+    margin-top: 10px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.systemReg_screenShot {
+    position: relative;
+    left: 25.6%;
+    top: 370px;
+    box-shadow: 0 11px 55px rgba(0, 0, 0, 0.15);
+    width: 1047px;
+    height: 728px;
+}
+
+.fifthBlock {
+    position: relative;
+    left: 16.5%;
+    top: 650px;
+    margin-bottom: -56px;
+}
+
+.fifthBlock_exportScreenShot {
+    box-shadow: 0 11px 55px rgba(0, 0, 0, 0.15);
+}
+
+.fifthBlock_exportMoney {
+    position: relative;
+    left: 45.3%;
+    top: -465px;
+}
+
+.fifthBlock_exportMoney_Blue {
+    margin-bottom: 16px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #1F88E5;
+}
+
+.fifthBlock_exportMoney_Black {
+    margin-bottom: 18px;
+    width: 25%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #202B30;
+}
+
+.fifthBlock_exportMoney_Light {
+    margin-bottom: 21px;
+    width: 26.5%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.fifthBlock_exportMoney_btn {
+    width: 249px;
+    height: 53px;
+    border: 2px solid #1F88E5;
+    box-sizing: border-box;
+    border-radius: 88px;
+    background-color: transparent;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px; /* or 100% */
+    text-align: center;
+    color: #1F88E5;
+}
+
+.sixthBlock {
+    position: relative;
+    left: 17%;
+    top: 600px;
+    margin-bottom: -69px;
+}
+
+.sixthBlock_Text {
+    position: relative;
+    left: 0.3%;
+    top: 81px;
+}
+
+.sixthBlock_Text_Blue {
+    margin-bottom: 18px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #1F88E5;
+}
+
+.sixthBlock_Text_Black {
+    margin-bottom: 23px;
+    width: 42%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #202B30;
+}
+
+.sixthBlock_Text_LightFirst {
+    margin-bottom: 14px;
+    width: 37%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.sixthBlock_Text_LightSecond {
+    margin-bottom: 15px;
+    width: 30%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.sixthBlock_Text_LightThird {
+    width: 30%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.sixthBlock_ScreenShot {
+    position: relative;
+    left: 28.8%;
+    top: -460px;
+    box-shadow: 0 11px 55px rgba(0, 0, 0, 0.15);
+}
+
+.seventhBlock {
+    text-align: center;
+    position: relative;
+    top: 419px;
+}
+
+.seventhBlock_countMoney {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 59px;
+    align-items: center;
+    text-align: center;
+    color: #202B30;
+}
+
+.seventhBlock_screenShot {
+    position: relative;
+    top: 27px;
+}
+
+.seventhBlock_Btn {
+    position: relative;
+    top: 47px;
+    width: 249px;
+    height: 53px;
+    border: 2px solid #1F88E5;
+    box-sizing: border-box;
+    border-radius: 88px;
+    background-color: transparent;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px; /* or 100% */
+    text-align: center;
+    color: #1F88E5;
+}
+
+.eighthBlock {
+    margin-top: 562px;
+    width: 5000px;
+    height: 690px;
+    background-image: url("../img/footerBackground.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.regBlock {
+    position: absolute;
+    left: 35%;
+    margin-top: 115px;
+    width: 586px;
+    height: 460px;
+    background-color: #FFFFFF;
+    box-shadow: 0 16px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.regBlock_Text {
+    margin-top: 30px;
+    margin-left: 33px;
+    width: 89%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #202B30;
+}
+
+.regBlock_regInputName {
+    margin-top: 27px;
+    margin-left: 58px;
+    width: 470px;
+    height: 46px;
+    border: 1px solid #6EBD2F;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.regBlock_regInputNameText {
+    margin-top: 4px;
+    margin-left: 1.9%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #707E96;
+}
+
+.regBlock_regInputName input:required:valid {
+    background: #fff url(../img/done.png) no-repeat 98% center;
+}
+
+.regBlock_regInputNameTextLabel {
+    width: 98%;
+    height: 20px;
+    Border: none;
+    outline: none;
+}
+
+.regBlock_regInputCompany {
+    margin-top: 18px;
+}
+
+.regBlock_emailAndTelephone {
+    margin-top: 17px;
+    margin-left: 58px;
+}
+
+.regBlock_emailAndTelephone div {
+    border: 1px solid #CCD5E0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.regBlock_emailInput input {
+    margin-left: 3.5%;
+    margin-top: 14px;
+    Border: none;
+    outline: none;
+}
+
+.regBlock_telephoneInput input {
+    margin-left: 3.5%;
+    margin-top: 14px;
+    Border: none;
+    outline: none;
+}
+
+.regBlock_emailInput {
+    width: 236px;
+    height: 46px;
+}
+
+.regBlock_telephoneInput {
+    margin-left: 1%;
+    width: 224px;
+    height: 46px;
+}
+
+.regBlock_regButton {
+    margin-top: 25px;
+    margin-left: 131px;
+    width: 322px;
+    height: 53px;
+    background: linear-gradient(188.95deg, #2C8DE2 -3.39%, #00A4D8 92.96%);
+    border-radius: 47px;
+}
+
+.regBlock_regButton span {
+    margin-left: 22%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.regBlock_FooterText {
+    margin-top: 34px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px; /* identical to box height */
+    text-align: center;
+    color: #4B5E80;
+}
+
+.footer_FirstBlock {
+    position: relative;
+    left: 21.2%;
+    top: 23px;
+}
+
+.footer_freeCall {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px; /* identical to box height */
+    color: #8c8c8c;
+}
+
+.footer_telephone {
+    font-family: "Helvetica Neue", serif;
+    font-size: 30px;
+    line-height: 36px; /* identical to box height */
+    color: #8c8c8c;
+}
+
+.footer_VKBlock {
+    position: relative;
+    left: 24.7%;
+    top: 23px;
+    width: 44px;
+    height: 44px;
+}
+
+.footer_SecondBlock {
+    position: relative;
+    left: 25.1%;
+    top: 14px;
+}
+
+.footer_vkIMG {
+    width: 44px;
+    height: 44px;
+    color: #8c8c8c;
+}
+
+.footer_email {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; /* identical to box height */
+    color: #8c8c8c;
+}
+
+.footer_email a {
+    color: #8c8c8c;
+}
+
+.footer_partner {
+    position: relative;
+    top: 4px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px; /* identical to box height */
+    color: #8c8c8c;
+}
+
+.footer_partner a {
+    color: #8c8c8c;
+}
+
+.footer_instruction {
+    position: relative;
+    top: 4px;
+    left: 6%;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px; /* identical to box height */
+    color: #8c8c8c;
+}
+
+.footer_instruction a {
+    color: #8c8c8c;
+}
+
+.footer_logo {
+    position: relative;
+    left: 31.5%;
+    top: 26px;
+}
+
+.footer_logoText {
+    position: relative;
+    width: 13%;
+    left: 32.2%;
+    top: 22px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8c8c8c;
+}
+
+.footer_dataText {
+    position: relative;
+    width: 9.6%;
+    left: 31.85%;
+    top: 16px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px; /* or 136% */
+    color: #8c8c8c;
+}
+
+.footer960 {
+    display: none;
+}
+
+.seventhBlockMobile {
+    display: none;
+}
+
+.eighthBlockMobile {
+    display: none;
+}
+
+.footerMobile {
+    display: none;
+}
+
+@media (max-width: 1635px) {
+
+    .header_rightPart {
+        position: relative;
+        left: 29.4%;
+        width: 40%;
+    }
+
+    .header_logo {
+        margin-left: 11.2%;
+    }
+
+    .header_TextHeader {
+        margin-left: 0.6%;
+    }
+
+    .blueWindow {
+        background-image: url("../img/blueWindow.png");
+        height: 757px;
+    }
+
+    .blueWindow_makeMoney {
+        top: 265px;
+        left: 13%;
+    }
+
+    .blueWindow_regClients {
+        top: 456px;
+        left: 13%;
+    }
+
+    .bePartner_Btn {
+        top: 600px;
+        left: 13%;
+    }
+
+    .thirdBlock {
+        position: relative;
+        top: 110px;
+        left: 11.15%;
+        margin-bottom: 6px;
+    }
+
+    .getPassiveIncome {
+        font-size: 44px;
+    }
+
+    .statistic {
+        margin-top: 58px;
+    }
+
+    .statistic_block {
+        margin-right: 12.3%;
+    }
+
+    .statistic_block_num {
+        font-size: 68px;
+    }
+
+    .statistic_block_rightText {
+        margin-left: 1%;
+    }
+
+    .statistic_block_bottomText {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .secondNum {
+        margin-right: 15.7%;
+    }
+
+    .systemReg {
+        width: 24%;
+        left: 11.2%;
+        top: -45.5px;
+    }
+
+    .systemReg_screenShot {
+        top: 300px;
+        left: 21%;
+    }
+
+    .fifthBlock_exportScreenShot {
+        width: 580px;
+        height: 392px;
+    }
+
+    .fifthBlock {
+        top: 441px;
+        left: 11.2%;
+    }
+
+    .fifthBlock_exportMoney {
+        left: 51.5%;
+        top: -398px;
+    }
+
+    .sixthBlock {
+        top: 389px;
+        left: 11%;
+    }
+
+    .sixthBlock_ScreenShot {
+        top: -483px;
+        left: 34.3%;
+    }
+
+    .seventhBlock {
+        top: 28px;
+    }
+
+    .seventhBlock_Btn {
+        top: 37px;
+    }
+
+    .eighthBlock {
+        background-image: url("../img/footerBackground1440.png");
+        margin-top: 160px;
+    }
+
+    .regBlock {
+        left: 30%;
+        margin-top: 126px;
+    }
+
+    .footer_FirstBlock {
+        left: 11.3%;
+        top: 30px;
+    }
+
+    .footer_VKBlock {
+        left: 16%;
+        top: 30px;
+    }
+
+    .footer_SecondBlock {
+        left: 16.4%;
+        top: 21px;
+    }
+
+    .footer_logo {
+        left: 25%;
+        top: 33px;
+    }
+
+    .footer_logoText {
+        left: 25.9%;
+        top: 29px;
+    }
+
+    .footer_dataText {
+        left: 29.8%;
+        top: 24px;
+        width: 12.9%;
+    }
+}
+
+@media (max-width: 1418px) {
+    .header_logo {
+        margin-left: 11.9%;
+    }
+
+    .header_rightPart {
+        position: relative;
+        left: 17.2%;
+        width: 47%;
+    }
+
+    .header_logInCabPartner {
+        display: inline-block;
+        width: 226px;
+        height: 36px;
+        background: linear-gradient(180deg, #2094FB 2.12%, #1D85E2 100%);
+        border: 1px solid #0D7ADB;
+        box-sizing: border-box;
+        box-shadow: 0 1px 0 rgba(22, 29, 37, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+        border-radius: 47px;
+    }
+
+    .header_logInCabPartner_Text {
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 27px;/* or 180% */
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .header_tariffs {
+        display: none;
+    }
+
+    .header_logoTelephone {
+        display: none;
+    }
+
+    .header_telephoneHeader {
+        margin-left: 4.2%;
+    }
+
+    .header_reg {
+        margin-left: 7.4%;
+    }
+
+    .header_logIn {
+        margin-left: 4.5%;
+    }
+
+    .blueWindow_makeMoney {
+        left: 13.7%;
+    }
+
+    .blueWindow_regClients {
+        left: 13.7%;
+    }
+
+    .bePartner_Btn {
+        left: 13.7%;
+    }
+
+    .thirdBlock {
+        position: relative;
+        left: 11.7%;
+        margin-bottom: -116px;
+    }
+
+    .thirdNum {
+        margin-left: -4%;
+    }
+
+    .systemReg {
+        top: 439px;
+        left: 11.8%;
+        width: 25.1%;
+    }
+
+    .systemReg_screenShot {
+        left: 49.2%;
+        top: 50px;
+        height: 589px;
+    }
+
+    .fifthBlock {
+        top: 334px;
+        left: 11.9%;
+    }
+
+    .fifthBlock_exportMoney {
+        left: 52.6%;
+    }
+
+    .sixthBlock {
+        top: 282px;
+        left: 11.5%;
+    }
+
+    .sixthBlock_ScreenShot {
+        left: 37.7%;
+        height: 589px;
+    }
+
+    .seventhBlock {
+        top: 60px;
+    }
+
+    .eighthBlock {
+        margin-top: 192px;
+        margin-bottom: 4px;
+    }
+
+    .regBlock {
+        left: 28.9%;
+    }
+
+    .footer_FirstBlock {
+        left: 9.2%;
+        top: 28px;
+    }
+
+    .footer_VKBlock {
+        left: 14.1%;
+        top: 28px;
+    }
+
+    .footer_SecondBlock {
+        left: 14.5%;
+        top: 20px;
+    }
+
+    .footer_logo {
+        left: 23.6%;
+    }
+
+    .footer_logoText {
+        left: 24.6%;
+        top: 27px;
+    }
+
+    .footer_dataText {
+        width: 13.5%;
+        left: 29.4%;
+    }
+}
+
+@media (max-width: 1365px) {
+    .header_logo {
+        margin-left: 5.3%;
+    }
+
+    .header_TextHeader {
+        margin-left: 1%;
+    }
+
+    .header_rightPart {
+        position: relative;
+        left: 5.8%;
+        width: 65%;
+    }
+
+    .header_logInCabPartner {
+        display: inline-block;
+        width: 226px;
+        height: 36px;
+        border: 1px solid #0D7ADB;
+        box-sizing: border-box;
+        border-radius: 47px;
+        background: #FFFFFF;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .header_logInCabPartner_Text {
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 27px;/* or 180% */
+        text-align: center;
+        color: #0F6AC0;
+    }
+
+    .header_tariffs {
+        display: none;
+    }
+
+    .header_logoTelephone {
+        display: none;
+    }
+
+    .header_telephoneHeader {
+        margin-left: 2.9%;
+    }
+
+    .header_logIn {
+        margin-left: 4.9%;
+    }
+
+    .blueWindow {
+        height: 545px;
+    }
+
+    .blueWindow_makeMoney {
+        left: 9.7%;
+        top: 187px;
+        font-size: 48px;
+        line-height: 63px;
+        width: 60%;
+    }
+
+    .blueWindow_regClients {
+        left: 9.7%;
+        top: 338px;
+        font-size: 24px;
+        line-height: 35px;
+        width: 45%;
+    }
+
+    .bePartner_Btn {
+        left: 9.7%;
+        top: 443px;
+        width: 228px;
+        height: 54px;
+    }
+
+    .bePartner_Text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .thirdBlock {
+        top: 76px;
+        left: 5.2%;
+        margin-bottom: 19px;
+    }
+
+    .statistic {
+        margin-top: 46px;
+    }
+
+    .statistic_block {
+        margin-right: 7.4%;
+    }
+
+    .secondNum {
+        margin-right: 10.5%;
+    }
+
+    .systemReg {
+        top: 241px;
+        left: 5.3%;
+    }
+
+    .systemReg_bigText {
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    .systemReg_textRegular {
+        width: 127%;
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 24px;
+    }
+
+    .systemReg_textRegularSecond {
+        width: 138%;
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 13px;
+    }
+
+    .systemReg_screenShot {
+        left: 19.2%;
+        top: 300px;
+        width: 536.78px;
+        height: 367px;
+    }
+
+    .fifthBlock {
+        top: 478px;
+        left: -1.6%;
+        margin-bottom: -80px;
+    }
+
+    .fifthBlock_exportMoney {
+        left: 67.4%;
+    }
+
+    .fifthBlock_exportMoney_Light {
+        font-size: 16px;
+        line-height: 23px;
+        width: 31%;
+    }
+
+    .fifthBlock_exportMoney_btn {
+        margin-top: 26px;
+    }
+
+    .sixthBlock {
+        top: 301px;
+    }
+
+    .sixthBlock_Text {
+        top: 42px;
+        left: -6.7%;
+    }
+
+    .sixthBlock_Text_Black {
+        width: 25%;
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    .sixthBlock_Text_LightFirst {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .sixthBlock_Text_LightSecond {
+        font-size: 16px;
+        line-height: 23px;
+        width: 34%;
+    }
+
+    .sixthBlock_Text_LightThird {
+        font-size: 16px;
+        line-height: 23px;
+        width: 31%;
+    }
+
+    .sixthBlock_ScreenShot {
+        left: 32.8%;
+        top: -437px;
+        width: 537px;
+        height: 400px;
+    }
+
+    .seventhBlock {
+        top: 189px;
+    }
+
+    .seventhBlock_Btn {
+        top: 48px;
+    }
+
+    .eighthBlock {
+        margin-top: 306px;
+        height: 540px;
+    }
+
+    .regBlock {
+        margin-top: 60px;
+        left: 22%;
+        height: 418px;
+    }
+
+    .regBlock_Text {
+        margin-top: 19px;
+        margin-left: 70px;
+        font-size: 28px;
+        line-height: 37px;
+        width: 70%;
+    }
+
+    .regBlock_regInputName {
+        margin-top: 20px;
+        margin-left: 37px;
+    }
+
+    .regBlock_regInputCompany {
+        margin-top: 18px;
+    }
+
+    .regBlock_emailAndTelephone {
+        margin-left: 37px;
+    }
+
+    .regBlock_regButton {
+        margin-top: 21px;
+        margin-left: 110px;
+    }
+
+    .regBlock_FooterText {
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer960 {
+        display: block;
+    }
+
+    .footer_FirstBlock {
+        left: 19.7%;
+        top: 35px;
+    }
+
+    .footer_logo {
+        left: 30.2%;
+        top: 40px;
+    }
+
+    .footer_logoText {
+        left: 31.5%;
+        top: 38px;
+        width: 18%;
+    }
+
+    .footer_VKBlock {
+        left: 19.6%;
+        top: 58px;
+    }
+
+    .footer_SecondBlock {
+        left: 20.3%;
+        top: 49px;
+    }
+
+    .footer_instruction {
+        left: 7%;
+    }
+
+    .footer_dataText {
+        width: 19.4%;
+        margin-left: 87px;
+        top: 46px;
+    }
+}
+
+@media (max-width: 959px) {
+
+    .header {
+        height: 40px;
+    }
+
+    .header_logo {
+        width: 17.11px;
+        height: 23.83px;
+        margin-left: 13.4%;
+    }
+
+    .header_logInCabPartner {
+        display: none;
+    }
+
+    .header_tariffs {
+        display: none;
+    }
+
+    .header_logoTelephone {
+        display: none;
+    }
+
+    .header_telephoneHeader {
+        display: none;
+    }
+
+    .header_reg {
+        display: none;
+    }
+
+    .header_logIn {
+        display: none;
+    }
+
+    .header_TextHeader_tender {
+        font-size: 120%;
+    }
+
+    .header_TextHeader_system {
+        font-size: 60%;
+        margin-top: -4px;
+    }
+
+    .header_TextHeader {
+        width: 37%;
+        line-height: 1px;
+        margin-top: -16px;
+    }
+
+    .blueWindow {
+        margin-top: 0;
+        height: 605px;
+    }
+
+    .blueWindow_makeMoney {
+        font-size: 27px;
+        line-height: 39px;
+        width: 71%;
+        top: 226px;
+        left: 13%;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .blueWindow_regClients {
+        font-size: 16px;
+        line-height: 23px;
+        width: 60%;
+        text-align: center;
+        left: 19%;
+        top: 322px;
+    }
+
+    .bePartner_Btn {
+        width: 328px;
+        height: 54px;
+        position: unset;
+    }
+
+    .blueWindow_bePartner {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 433px;
+        display: inline-block;
+    }
+
+    .blueWindow_enterCabMobile {
+        position: absolute;
+        height: 65px;
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.93);
+        font-size: 16px;
+        line-height: 23px;
+        width: 60%;
+        text-align: center;
+        left: 19%;
+        top: 526px;
+        display: inline-block;
+
+    }
+
+    .blueWindow_enterCabMobile a {
+        color: #FFFFFF;
+    }
+
+    .thirdBlock {
+        top: 46px;
+        left: 0;
+    }
+
+    .getPassiveIncome {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        width: 100%;
+        top: 46px;
+        text-align: center;
+    }
+
+    .regClients {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        width: 98%;
+        text-align: center;
+    }
+
+    .statistic {
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: -190px;
+    }
+
+    .statistic_block {
+        text-align: center;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .systemReg {
+        top: 275px;
+        left: 4.7%;
+        width: 100%;
+    }
+
+    .systemReg_blueText {
+        margin-bottom: -10px;
+    }
+
+    .systemReg_bigText {
+        font-size: 24px;
+        line-height: 32px;
+        width: 50%;
+    }
+
+    .systemReg_textRegular {
+        margin-top: 15px;
+        width: 76%;
+    }
+
+    .systemReg_textRegularSecond {
+        width: 76%;
+    }
+
+    .systemReg_screenShot {
+        top: 345px;
+        margin-left: -80px;
+        width: 415px;
+        height: 247px;
+    }
+
+    .fifthBlock {
+        width: 100%;
+        top: 463px;
+    }
+
+    .fifthBlock_exportMoney {
+        top: -294px;
+        left: 6%;
+    }
+
+    .fifthBlock_exportMoney_Black {
+        margin-top: -10px;
+        margin-bottom: 25px;
+        font-size: 24px;
+        line-height: 32px;
+        width: 76%;
+    }
+
+    .fifthBlock_exportScreenShot {
+        position: relative;
+        top: 300px;
+        margin-left: -80px;
+        left: 19.2%;
+        width: 415px;
+        height: 243px;
+    }
+
+    .fifthBlock_exportMoney_Light {
+        margin-bottom: 8px;
+        width: 74%;
+    }
+
+    .fifthBlock_exportMoney_btn {
+        width: 378px;
+        height: 53px;
+    }
+
+    .sixthBlock {
+        margin-bottom: -57px;
+        width: 100%;
+    }
+
+    .sixthBlock_Text {
+        top: 330px;
+        left: -6.8%;
+    }
+
+    .sixthBlock_ScreenShot {
+        top: 360px;
+        margin-left: -80px;
+        left: 8%;
+        width: 415px;
+        height: 247px;
+    }
+
+    .sixthBlock_Text_Black {
+        font-size: 24px;
+        line-height: 32px;
+        width: 58%;
+    }
+
+    .sixthBlock_Text_LightFirst {
+        margin-bottom: 9px;
+        width: 80%;
+    }
+
+    .sixthBlock_Text_LightSecond {
+        margin-bottom: 7px;
+        width: 80%;
+    }
+
+    .sixthBlock_Text_LightThird {
+        width: 80%;
+    }
+
+    .seventhBlock {
+        top: 800px;
+    }
+
+    .seventhBlock_countMoney {
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 2px;
+        position: relative;
+        display: block;
+        width: 90%;
+        left: 3%;
+    }
+
+    .seventhBlock {
+        display: none;
+    }
+
+    .eighthBlock {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer960 {
+        display: none;
+    }
+
+    .seventhBlockMobile {
+        position: relative;
+        top: 800px;
+        display: block;
+        height: 790px;
+        border-bottom: solid 1px #e0e0e0;
+    }
+
+    .eighthBlockMobile {
+        display: block;
+        position: relative;
+        top: 812px;
+    }
+
+    .footerMobile {
+        display: block;
+    }
+
+    .seventhBlock_screenShot {
+        left: 0.1%;
+        text-align: center;
+    }
+
+    .seventhBlock_countMoneyBtnDiv {
+        text-align: center;
+    }
+
+    .seventhBlock_Btn {
+        top: 55px;
+        left: 1%;
+    }
+
+    .regBlock_Text {
+        margin-left: 62px;
+        margin-bottom: 33px;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .regBlock_regInputName {
+        margin-left: 58px;
+        margin-bottom: -6px;
+        width: 85%;
+        height: 43px;
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px solid #6EBD2F;
+    }
+
+    .regBlock_bePartnerBtnDivFooter {
+        text-align: center;
+        margin-top: 43px;
+    }
+
+    .regBlock_bePartnerBtnFooter {
+        width: 328px;
+        height: 53px;
+        background: #1F88E5;
+        border-radius: 88px;
+    }
+
+    .regBlock_bePartnerTextFooter {
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 20px;/* or 100% */
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .regBlock_FooterText {
+        text-align: center;
+        width: 75%;
+        margin-top: 25px;
+        margin-left: 13%;
+    }
+
+    .footerMobile {
+        position: relative;
+        top: 846px;
+        height: 390px;
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: normal;
+        color: #FFFFFF;
+        background: linear-gradient(197.8deg, #2F36C5 -5%, #00A4D8 132.15%);
+    }
+
+    .footerMobile_FirstBlock p a {
+        color: #FFFFFF;
+    }
+
+    .footerMobile_VertLine {
+        color: rgba(255, 255, 255, 0.25);
+        font-size: 23px;
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+
+    .footerMobile_FirstBlock {
+        text-align: center;
+        position: relative;
+        top: 16px;
+        left: 2%;
+    }
+
+    .footerMobile_FreeCall {
+        position: relative;
+        top: 40px;
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.62);
+    }
+
+    .footerMobile_Number {
+        position: relative;
+        top: 40px;
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .footerMobile_Mail {
+        top: 60px;
+    }
+
+    .footerMobile_Address {
+        top: 60px;
+    }
+
+    .footerMobile_Icons img {
+        width: 44px;
+        margin-right: 5px;
+    }
+
+    .footerMobile_Icons {
+        text-align: center;
+        margin-top: 85px;
+    }
+
+    .footerMobile_FooterPartner {
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        width: 270px;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+
+    .footerMobile_Footer {
+        position: relative;
+        top: 20px;
+        left: -2%;
+        text-align: center;
+    }
+
+    .footerMobile_Date {
+        position: relative;
+        top: 39px;
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 19px;/* or 158% */
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+}
+
+@media (min-width: 1951px) {
+
+    .fifthBlock_exportMoney {
+        left: 10%;
+        top: -110px;
+    }
+
+    .sixthBlock {
+        top: 900px;
+    }
+
+    .seventhBlock {
+        margin-top: 300px;
+    }
+}
+
+@media (min-width: 2061px) {
+
+    .sixthBlock_Text {
+        top: -250px;
+    }
+
+    .sixthBlock_ScreenShot {
+        left: -20%;
+        top: 10px;
+    }
+
+    .seventhBlock {
+        margin-top: 700px;
+    }
+}
+
+@media (min-width: 1947px) {
+    .footer_logoText {
+        width: 10%;
+    }
+}
+
+@media (max-width: 1911px) and (min-width: 1636px) {
+    .footer_dataText {
+        width: 12%;
+    }
+}
+

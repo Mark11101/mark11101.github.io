@@ -1,0 +1,25 @@
+body {
+    background-color: #282d33;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+a {
+    display: block;
+    margin-top: 50px;
+}
+
+a img {
+    border-radius: 15px;
+}
+
+img {
+    width: 80%;
+    transition: 0.5s;
+}
+
+img:hover {
+    width: 85%;
+    cursor: pointer;
+    transition: 0.5s;
+}
