@@ -1,7 +1,7 @@
 https://mark11101.github.io/
 
-<br/><br/>
-**Приложение My Payments**
+<br/>
+**Приложение My Payments. React+Redux+Firebase**
 
 Приложение представляет собой историю платежей пользователя, которую он заполняет самостоятельно.
 Проект выполнен по тестовому заданию, привиденному ниже:
@@ -80,7 +80,7 @@ https://mark11101.github.io/
 <br/><br/>
 ![Alt text](components.png?raw=true "Title")
 <br/><br/><br/><br/>
-**Приложение My Payments**
+**Приложение MultySelect. React**
 
 Приложение представляет собой поле ввода для выбора элементов из нескольких вариантов.
 Проект выполнен по тестовому заданию, привиденному ниже:
@@ -111,13 +111,13 @@ https://mark11101.github.io/
     “Университет”, “Школа Детский сад”, “Колледж”.
 
 <br/><br/>
-**Шашки**
+**Шашки. JavaScript**
 
 [Demo (player vs player)](https://codepen.io/Mark11101/pen/gVBmBj)
 
 [Demo (player vs computer)](https://codepen.io/Mark11101/pen/ZEzWXxq)
 
 <br/><br/>
-**Верстка сайта YokNgalam**
+**Верстка сайта YokNgalam. HTML+CSS+JQuery**
 
 Адаптив был сделан по одному макету, т.е. версия для мобилок была сверстана на его основе
