@@ -1,6 +1,5 @@
-https://mark11101.github.io/
+https://mark11101.github.io/<br/><br/>
 
-<br/>
 **Приложение My Payments. React+Redux+Firebase**
 
 Приложение представляет собой историю платежей пользователя, которую он заполняет самостоятельно.
